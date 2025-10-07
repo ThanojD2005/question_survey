@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero",
+      "description": "Abstract representation of data and surveys",
+      "imageUrl": "https://images.unsplash.com/photo-1642516303080-431f6681f864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhYnN0cmFjdCUyMGRhdGF8ZW58MHx8fHwxNzU5Njk1OTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract data"
+    },
+    {
+      "id": "feature-pdf",
+      "description": "Icon-like image for PDF upload feature",
+      "imageUrl": "https://images.unsplash.com/photo-1715522594847-67c90b5b8667?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkb2N1bWVudCUyMHBhcGVyfGVufDB8fHx8MTc1OTY5NTIxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "document paper"
+    },
+    {
+      "id": "feature-builder",
+      "description": "Icon-like image for survey builder feature",
+      "imageUrl": "https://images.unsplash.com/photo-1602064172250-43f8909056c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxpbnRlcmZhY2UlMjBkZXNpZ258ZW58MHx8fHwxNzU5NzI1MDU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "interface design"
+    },
+    {
+      "id": "feature-dashboard",
+      "description": "Icon-like image for dashboard feature",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjaGFydHMlMjBncmFwaHxlbnwwfHx8fDE3NTk2Nzg1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "charts graph"
+    }
+  ]
+}

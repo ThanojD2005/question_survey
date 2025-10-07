@@ -1,0 +1,39 @@
+{
+  "entities": {
+    "surveyResponse": {
+      "title": "Survey Response",
+      "description": "Represents a single submission of a survey.",
+      "type": "object",
+      "properties": {
+        "surveyId": {
+          "type": "string",
+          "description": "The ID of the survey being responded to."
+        },
+        "submittedAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the survey was submitted."
+        },
+        "answers": {
+          "type": "object",
+          "description": "An object containing the user's answers, keyed by question ID.",
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["surveyId", "submittedAt", "answers"]
+    }
+  },
+  "auth": {
+    "providers": ["password"]
+  },
+  "firestore": {
+    "/surveyResponses/{responseId}": {
+      "schema": {
+        "$ref": "#/entities/surveyResponse"
+      },
+      "description": "Stores individual survey responses."
+    }
+  }
+}
